@@ -31,5 +31,3 @@ else:
     password = "".join(temp3)
 
     print("Twoje nowe hasło to: " + password)
-
-    test
