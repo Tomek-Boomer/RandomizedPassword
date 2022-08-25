@@ -5,7 +5,7 @@ print('Serdecznie witamy w naszym generatorze haseł!')
 
 length = int(input("Jak długie hasło Państwo sobie życzą (min.4 znaki prosimy)? "))
 if length < 4:
-    print("O kurcze! O nie! Miało być mniej niż 4 znaki!")
+    print("O kurcze! O nie! Miało być więcej niż 4 znaki!")
 else:
     length2 = length - 4 # Odejmuję 4 znaki, które będą musiały być unikalne, a niżej definiuję typy stringów
     lower = string.ascii_lowercase
